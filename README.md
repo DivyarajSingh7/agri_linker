@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-## Folder Structure
+#### Folder Structure
 
 ```bash
 lib
