@@ -4,6 +4,45 @@ A new Flutter project.
 
 ## Getting Started
 
+## Folder Structure
+
+```bash
+lib
+├── core
+│   ├── configs
+│   ├── exceptions
+│   ├── models
+│   ├── services
+│   │   ├── http
+│   │   └── storage
+│   └── widgets
+├── features
+│   ├── media
+│   │   ├── enums
+│   │   ├── models
+│   │   ├── providers
+│   │   ├── repositories
+│   │   └── views
+│   │       ├── pages
+│   │       └── widgets
+│   ├── people
+│   │   ├── enums
+│   │   ├── models
+│   │   ├── providers
+│   │   ├── repositories
+│   │   └── views
+│   │       ├── pages
+│   │       └── widgets
+│   └── tmdb-configs
+│       ├── enums
+│       ├── models
+│       ├── providers
+│       └── repositories
+├── main.dart
+└── movies_app.dart
+```
+
+
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
